@@ -6,8 +6,10 @@ from model.types import  Gwei_per_Gas
 
 
 # Set 12 month window
-window_start = '7/3/2020'
-window_end = '7/3/2021'
+window_start = '10/7/2021'
+window_end = '10/7/2022'
+#window_start = '7/3/2020'
+#window_end = '7/3/2021'
 
 # Fetch CSV file relative to current file path
 file_ether_price_csv = os.path.join(os.path.dirname(__file__), "ether_price.csv")
